@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+  
+}
+
+.logo{
+    color: brown;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: pink;
+    transition: 0,5;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.navlink{
+    color: blue;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+body{
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.card{
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    text-align: center;
+    padding: 50px 50px;
+    width: 70%;
+    margin: 30px auto;
+}
+.fotoyadi{
+    width: 200pt;
+    height: 200pt;
+    border-radius: 50%;
+    border: solid 3px white;
+    margin-bottom: 20px;
+}
+
+.btn{
+    font-size: 30px;
+    background-color: blueviolet;
+    color: wheat;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background: transparent;
+    border: 2px solid white;
+}
+
+

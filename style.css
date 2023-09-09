@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: black;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+  
+}
+
+.logo{
+    color: brown;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: pink;
+    transition: 0,5;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.navlink{
+    color: blue;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+img{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    transform: rotateX(90%);
+    border-radius: 50%;
+    border: solid 3px white;
+    margin-right: 20px;
+    margin-left: 500px;
+}
+
+.profitext{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: rotateY(-50px);
+}
+
+h2{
+    color: #fcfcfc;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+h4{
+    color: red;
+    font-size: 40px;
+}
+
+.btn{
+    font-size: 30px;
+    background-color: blueviolet;
+    color: wheat;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background: transparent;
+    border: 2px solid white;
+}
+
+
+
+
